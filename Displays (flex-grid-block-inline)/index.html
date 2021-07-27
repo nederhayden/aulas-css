@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display</title>
+  </head>
+  <link rel="stylesheet" href="index.css" />
+  <body>
+    <div class="wrapper">
+      <div class="block-inline">
+        <h1>Display Block e Inline (Fora da Caixa)</h1>
+        <!-- Display Inline -->
+        <div class="dp-inline">
+          <h3>Display Inline</h3>
+          <h4>Não aceita as propriedades:</h4>
+          <ul>
+            <li>margin(top|bottom)</li>
+            <li>width&height</li>
+            <li>nao gera quebra de linha</li>
+          </ul>
+          <br />
+          <div class="purple">
+            <span>First</span>
+            <span>Second</span>
+            <span>Third</span>
+          </div>
+          <div class="green">
+            <span>A</span>
+            <span>B</span>
+            <span>C</span>
+          </div>
+        </div>
+
+        <!-- Display Block -->
+        <div class="dp-block">
+          <h3>Display Block</h3>
+          <h4>Aceita as propriedades:</h4>
+          <ul>
+            <li>margin(top|bottom)</li>
+            <li>width&height</li>
+            <li>gera quebra de linha</li>
+          </ul>
+          <br />
+          <div class="purple">
+            <span>First</span>
+            <span>Second</span>
+            <span>Third</span>
+          </div>
+          <div class="green">
+            <span>A</span>
+            <span>B</span>
+            <span>C</span>
+          </div>
+        </div>
+
+        <!-- Display Inline-Block -->
+        <div class="dp-inline-block">
+          <h3>Display Inline-Block</h3>
+          <h4>Herda as propriedades do block:</h4>
+          <ul>
+            <li>margin(top|bottom)</li>
+            <li>width&height</li>
+            <li>gera quebra de linha</li>
+          </ul>
+          <br />
+          <div class="purple">
+            <span>First</span>
+            <span>Second</span>
+            <span>Third</span>
+          </div>
+          <div class="green">
+            <span>A</span>
+            <span>B</span>
+            <span>C</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-grid">
+        <h1>Display Flex e Grid (Dentro da Caixa)</h1>
+        <!-- Display Flex -->
+        <div class="dp-flex">
+          <h3>Display Flex</h3>
+          <h4>
+            Desbloqueia propriedades para trabalhar com os elementos internos e
+            o elemento principal funciona como block
+          </h4>
+          <br />
+          <div class="purple">
+            <span>First</span>
+            <span>Second</span>
+            <span>Third</span>
+          </div>
+          <div class="green">
+            <span>A</span>
+            <span>B</span>
+            <span>C</span>
+          </div>
+        </div>
+
+        <!-- Display Inline-Flex -->
+        <div class="dp-inline-flex">
+          <h3>Display Inline-Flex</h3>
+          <h4>
+            O elemento pai é inline recebe propriedades block e os filhos flex
+          </h4>
+          <br />
+          <div class="purple">
+            <span>First</span>
+            <span>Second</span>
+            <span>Third</span>
+          </div>
+          <div class="green">
+            <span>A</span>
+            <span>B</span>
+            <span>C</span>
+          </div>
+        </div>
+
+        <!-- Display Grid -->
+        <div class="dp-grid">
+          <h3>Display Grid</h3>
+          <h4>
+            Desbloqueia propriedades para trabalhar com os elementos internos e
+            o elemento principal fica block
+          </h4>
+          <br />
+          <div class="purple">
+            <span>First</span>
+            <span>Second</span>
+            <span>Third</span>
+          </div>
+          <div class="green">
+            <span>A</span>
+            <span>B</span>
+            <span>C</span>
+          </div>
+        </div>
+
+        <!-- Display Inline-Grid -->
+        <div class="dp-inline-grid">
+          <h3>Display Inline-Grid</h3>
+          <h4>O elemento pai é inline e o conteudo se comporta como grid</h4>
+          <br />
+          <div class="purple">
+            <span>First</span>
+            <span>Second</span>
+            <span>Third</span>
+          </div>
+          <div class="green">
+            <span>A</span>
+            <span>B</span>
+            <span>C</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

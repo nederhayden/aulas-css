@@ -1,0 +1,109 @@
+/* reseta as propriedades do navegador */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Titulo */
+h3,
+h4 {
+  margin: 2px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+ul {
+  margin-left: 18px;
+}
+
+.purple {
+  background: rgb(241, 84, 241);
+}
+
+.green {
+  background: rgb(53, 241, 53);
+}
+/* backgroun para somente para o Span e cor do texto */
+div span {
+  background: black;
+  color: white;
+}
+
+/* borda em todas as Divs */
+div {
+  border: 1px solid;
+}
+
+/*  espacamento para Divs e Spans */
+div,
+span {
+  padding: 8px;
+  margin: 2px;
+}
+
+/* INLINE */
+.dp-inline {
+  background: cornflowerblue;
+}
+
+.dp-inline div {
+  display: inline;
+}
+
+/* BLOCK */
+.dp-block {
+  background: cornflowerblue;
+}
+
+.dp-block div {
+  display: block;
+}
+
+/* INLINE-BLOCK */
+.dp-inline-block {
+  background: cornflowerblue;
+}
+
+.dp-inline-block div {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* FLEX */
+.dp-flex {
+  background: cornflowerblue;
+}
+
+.dp-flex div {
+  display: flex;
+}
+
+/* INLINE-FLEX */
+.dp-inline-flex {
+  background: cornflowerblue;
+}
+
+.dp-inline-flex div {
+  display: inline-flex;
+}
+
+/* GRID */
+.dp-grid {
+  background: cornflowerblue;
+}
+
+.dp-grid div {
+  display: grid;
+}
+
+/* INLINE-GRID */
+.dp-inline-grid {
+  background: cornflowerblue;
+}
+
+.dp-inline-grid div {
+  display: inline-grid;
+}
